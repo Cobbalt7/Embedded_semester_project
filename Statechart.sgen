@@ -1,0 +1,15 @@
+GeneratorModel for create::c {
+
+	const PROJECT : string = "emSemestrinis"
+
+	const FOLDER : string = "Itemis"
+
+	statechart Statechart {
+
+		feature Outlet {
+			targetProject = PROJECT
+			targetFolder = FOLDER
+			libraryTargetFolder = "Itemis/Inc"
+		}
+	}
+}
